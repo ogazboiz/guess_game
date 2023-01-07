@@ -46,6 +46,7 @@ const restart = function () {
   document.querySelector('.score').textContent = '20';
   document.querySelector('.message').textContent = 'Start guessing...';
   document.querySelector('.guess').value = '';
+  document.querySelector('body').style.background = '#222';
 };
 
 document.querySelector('.again').addEventListener('click', restart);
