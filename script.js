@@ -13,6 +13,8 @@ document.querySelector('.check').addEventListener('click', function (e) {
     Checknumber.textContent = 'no number';
   } else if (guess === randomNumber) {
     document.querySelector('.message').textContent = 'you won 🏆';
+    document.querySelector('body').style.background = '#60b347';
+    document.querySelector('.number').style.width = '30rem';
   } else if (guess > randomNumber) {
     document.querySelector('.message').textContent = 'go lower ';
     scoreBoard = scoreBoard - 1;
