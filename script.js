@@ -1,3 +1,4 @@
+'use strict';
 let randomNumber = Math.trunc(Math.random() * 20 + 1);
 console.log(randomNumber);
 document.querySelector('.number').textContent = '?';
